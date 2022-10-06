@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'io.quarkus'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group 'de.ochmanski.microservices'
+version 'local-SNAPSHOT'
+
+dependencies {
+    implementation(
+            enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}"),
+            'io.quarkus:quarkus-arc',
+            //'io.quarkus:quarkus-container-image-jib',
+            //'io.quarkus:quarkus-hibernate-validator',
+            'io.quarkus:quarkus-resteasy-reactive',
+            //'io.quarkus:quarkus-resteasy-reactive-jackson',
+            //'io.quarkus:quarkus-rest-client-reactive',
+            //'io.quarkus:quarkus-rest-client-reactive-jackson'
+    )
+    testImplementation(
+            'io.quarkus:quarkus-junit5',
+            'io.rest-assured:rest-assured'
+    )
+}
