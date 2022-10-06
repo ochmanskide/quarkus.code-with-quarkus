@@ -29,7 +29,7 @@ If you want to build an _über-jar_, execute the following command:
 gradle build -x test -Dquarkus.package.type=uber-jar
 ```
 
-The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
+The application, packaged as an _über-jar_, is now runnable using `java -jar build/code-with-quarkus-*-runner.jar`.
 
 ## Creating a native executable
 
