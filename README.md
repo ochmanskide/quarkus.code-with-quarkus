@@ -8,8 +8,13 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 ### 1.1 Prerequisites
 It is assumed that you have basic software tools such as `git`, `java`, `gradle`. Ideally you would have [SDKMAN](https://sdkman.io) installed and all the tools would download themselves, based on instructions provided inside of [.sdkmanrc](./.sdkmanrc) file.  
 If you don't have [SDKMAN](https://sdkman.io), it is not the end of the world. You should be able to start the project with your tools as well.  
+
 ### 1.2. Download project
 Clone source code into destination of your choice:
+```shell script
+git clone https://github.com/ochmanskide/quarkus.code-with-quarkus.git
+```
+or with ssh
 ```shell script
 git clone git@github.com:ochmanskide/quarkus.code-with-quarkus.git ~/Workspace/02-github/ochmanskide/quarkus/code-with-quarkus
 ```
