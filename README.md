@@ -4,11 +4,25 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
-## Running the application in dev mode
+## 1. Getting started
+### 1.1 Prerequisites
+It is assumed that you have basic software tools such as `git`, `java`, `gradle`. Ideally you would have [SDKMAN](https://sdkman.io) installed and all the tools would download themselves, based on instructions provided inside of [.sdkmanrc](./.sdkmanrc) file.  
+If you don't have [SDKMAN](https://sdkman.io), it is not the end of the world. You should be able to start the project with your tools as well.  
+### 1.2. Download project
+Clone source code into destination of your choice:
+```shell script
+git clone ~/Workspace/02-github/ochmanskide/quarkus/code-with-quarkus
+```
+
+## 2. Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
 ```shell script
 gradle quarkusDev
+```
+if you have `quarkus` installed you may simply run:
+```shell script
+quarkus dev
 ```
 
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
