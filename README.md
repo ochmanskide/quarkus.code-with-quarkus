@@ -32,7 +32,7 @@ quarkus dev
 
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 
-## Packaging and running the application
+## 3. Packaging and running the application
 
 The application can be packaged using:
 ```shell script
@@ -50,7 +50,7 @@ gradle build -x test -Dquarkus.package.type=uber-jar
 
 The application, packaged as an _über-jar_, is now runnable using `java -jar ./build/code-with-quarkus-*-runner.jar`.
 
-## Creating a native executable
+## 4. Creating a native executable
 
 You can create a native executable using: 
 ```shell script
@@ -64,14 +64,31 @@ gradle build -x test -Dquarkus.package.type=native -Dquarkus.native.container-bu
 
 You can then execute your native executable with: `./build/libs/code-with-quarkus-1.0.0-SNAPSHOT-runner`
 
-## Related Guides
+## 5. Related Guides
 
 - RESTEasy Classic ([guide](https://quarkus.io/guides/resteasy)): REST endpoint framework implementing JAX-RS and more
 
-## Provided Code
+## 6. Provided Code
 
-### RESTEasy JAX-RS
+### 6.1. RESTEasy JAX-RS
 
 Easily start your RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+
+### 12. License
+```
+Copyright 2023 Lukasz Ochmanski
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+```
