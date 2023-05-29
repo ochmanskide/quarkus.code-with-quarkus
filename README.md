@@ -12,11 +12,7 @@ If you don't have [SDKMAN](https://sdkman.io), it is not the end of the world. Y
 ### 1.2. Download project
 Clone source code into destination of your choice:
 ```shell script
-git clone https://github.com/ochmanskide/quarkus.code-with-quarkus.git
-```
-or with ssh
-```shell script
-git clone git@github.com:ochmanskide/quarkus.code-with-quarkus.git ~/Workspace/02-github/ochmanskide/quarkus/code-with-quarkus
+git clone git@github.com:ochmanskide/quarkus.code-with-quarkus.git ~/Workspace/github/ochmanskide/quarkus/code-with-quarkus
 ```
 
 ## 2. Running the application in dev mode
